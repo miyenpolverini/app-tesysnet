@@ -1,0 +1,110 @@
+.box-contact{
+  background-color: #274373;
+  margin: 1em;
+  border: 1px solid #274373;
+  border-radius: 10px;
+  transition: all 0.6s ease;
+  display: inline-block;
+  padding: 1em;
+  box-shadow: 0 12px 18px -6px rgba(0, 0, 0, 0.5);
+  
+}
+
+.box-contact:hover{
+  cursor: pointer;
+  transform: scale(1.03, 1.03);
+}
+
+
+.contacto-tit{
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    margin: 1.5em;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: white;
+
+  }
+
+.contacto-subtit{
+  font-size: 0.5em;
+  margin: 2em;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: white;
+
+}
+
+.containerIndex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+
+}
+
+.contacto-maps{
+  width: 20em;
+  height: 14em;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+@media (min-width: 992px) {.contacto-maps{width: 30em;}}
+@media (min-width: 1200px) {.contacto-maps{width: 40em;}}
+
+
+.contForm{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+
+
+}
+
+.form-compra{
+  color: black;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+ 
+}
+
+.btnFinish{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    color: white;
+    width: 12em;
+    height: 3em;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:red;
+    border: rgba(30, 144, 255, .9);
+    margin-left: 20px;
+    transition: all 300ms ease-out;
+    
+}
+
+.btnFinish:hover{
+    width: 14em;
+   
+    .btn-arrow{
+      display:inline-block;
+      
+    }
+}
+
+.btn-arrow{
+  display: none;
+}
+
+
+.input-email{
+  width: 10em;
+}
+
+.input-email input{
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 992px) {.btn-newesletter{margin-top: 1em;margin-left: 5px;}}
