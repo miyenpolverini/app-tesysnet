@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Desarrollo.scss'
 import CardGroup from 'react-bootstrap/CardGroup'
 import Card from 'react-bootstrap/Card'
@@ -10,8 +10,13 @@ import complete from '../images/web-completo.jpg';
 import arrow from '../images/arrow.png';
 import { FcCheckmark } from "react-icons/fc";
 import { IoIosArrowForward } from "react-icons/io";
+import Aos from 'aos';
 
 const Desarrollo = () => {
+
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+    }, [])
 
 
     return (
