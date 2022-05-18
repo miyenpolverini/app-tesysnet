@@ -6,6 +6,7 @@ import Footer from './Components/Footer/Footer';
 import Contact from './Components/Contact/Contact';
 import Support from './Components/Support/Support';
 import Nosotros from './Components/Nosotros/Nosotros';
+import Desarrollo from './Components/DesarrolloWeb/Desarrollo';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path='/' element={<ItemIndex />}></Route>
             <Route path='/nosotros' element={<Nosotros />}></Route>
             <Route path='/soporteTecnico' element={<Support />}></Route>
+            <Route path='/desarrolloWeb' element={<Desarrollo />}></Route>
             <Route path='/contacto' element={<Contact />}></Route>
           </Routes>
         </div>
