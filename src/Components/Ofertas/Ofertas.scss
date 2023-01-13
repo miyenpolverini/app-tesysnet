@@ -1,0 +1,24 @@
+.title-nosotros{
+    margin: 1em;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 1.1em;
+    letter-spacing: 0.3px;
+}
+
+.parrafo-ofertas{
+    margin: 1em;
+    color: #473c41;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    strong{
+        font-weight:800;
+    }
+}
+
+
+
+@media (min-width: 992px) {.parrafo-nosotros{ margin: 1em 15em;}}

@@ -92,10 +92,14 @@ const NavMenu = () => {
                                             </li>
                                             <li className="nav-item dropdown">
                                                 <a className="dropdown-toggle" href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    TIENDA ONLINE
+                                                    TIENDA
                                                 </a>
                                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                                    <li><a className="dropdown-item" href="/#">Notebook</a></li>
+                                                    <li>
+                                                        <Link className="dropdown-item" to={'/tienda'}>
+                                                            Hardware
+                                                        </Link>
+                                                    </li>
                                                     <li><a className="dropdown-item" href="/#">Mouse</a></li>
                                                     <li><a className="dropdown-item" href="/#">Teclado</a></li>
                                                     <li><a className="dropdown-item" href="/#">Cartuchos</a></li>
@@ -130,8 +134,12 @@ const NavMenu = () => {
                                                     EDUCACIÓN
                                                 </a>
                                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                                    <li><a className="dropdown-item" href="/#">Cursos presenciales</a></li>
-                                                    <li><a className="dropdown-item" href="/#">Cursos online</a></li>
+                                                    <li>
+                                                        <Link className="dropdown-item" to={'/cursosPresenciales'}>
+                                                            Cursos presenciales
+                                                        </Link>
+                                                    </li>
+                                                    <li><a className="dropdown-item" target='_blank' rel="noreferrer" href="http://www.isiv.edu.ar">Cursos a distancia</a></li>
                                                 </ul>
                                             </li>
                                             <li className="nav-item">

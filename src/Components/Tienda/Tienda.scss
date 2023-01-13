@@ -1,19 +1,11 @@
-.title-soporte{
-    margin: 1em;
-    font-size: 40px;
+.tienda{
+    margin-top: 2em;
+    color: #424242;
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    line-height: 1.1em;
-    letter-spacing: 0.3px;
+    font-size: 1.2rem;
+    text-align: left;
 }
 
-.subtitle-soporte{
-    font-size: 24px;
-    font-family: 'Overpass', sans-serif;
-    font-weight: 300;
-    line-height: 1.1em;
-    letter-spacing: 0.3px;
-}
 
 .support-box_main { 
     display: flex;
@@ -59,6 +51,9 @@
     font-size: 15px;
 }
 
+
+
+
 .title-prices{
     margin: 2em 1em 1em 1em; 
     font-size: 40px;
@@ -68,12 +63,7 @@
     letter-spacing: 0.3px;
 }
 
-.support-prices{
-    color: #424242;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.2rem;
-    text-align: left;
-}
+
 
 ul{
     list-style:none;
@@ -123,8 +113,6 @@ ul{
     box-shadow: 0 12px 18px -6px rgba(0, 0, 0, 0.5);
   
 }
-
-
 
 
 .box-message:hover{

@@ -7,6 +7,7 @@ import photo4 from '../images/backup.png';
 import photo5 from '../images/mantenimiento.png';
 import arrow from '../images/arrow.png';
 import { IoIosArrowForward } from "react-icons/io";
+import { TiInputChecked } from "react-icons/ti";
 import Aos from 'aos';
 
 
@@ -83,12 +84,38 @@ const Support = () => {
                 </div>
             </div>
 
+            <h2 className='title-prices'>Costos de servicio técnico</h2>
+
+            <ul className='support-prices'>
+                <li><TiInputChecked /> Costo por hora de servicio técnico a domicilio <strong>$5000</strong></li>
+                <li><TiInputChecked /> Formateo y reinstalación BÁSICA (Windows+Office+Antivirus) <strong>$6500</strong></li>
+                <li><TiInputChecked /> Formateo y reinstalación DISEÑO (Windows+Office+Paquete Adobe+Corel+Antivirus) <strong>$11250</strong></li>
+                <li><TiInputChecked /> Formateo y reinstalación CONTABLE (Windows+Office+SiAP+Antivirus) <strong>$22500</strong></li>
+                <li><TiInputChecked /> Mantenimiento general de PC o Notebook <strong>$5000</strong></li>
+                <li><TiInputChecked /> Adicional backup previo y restauración posterior <strong>$2000</strong></li>
+                <li><TiInputChecked /> Adicional mano de obra por cambio de disco rígido <strong>$2000</strong></li>
+                <li><TiInputChecked /> Mantenimiento de impresora sistema continuos <strong>$8000</strong></li>
+                <li><TiInputChecked /> Desbloqueo de Net estado <strong>$4000</strong></li>
+                <li><TiInputChecked /> Limpieza física de PC o Notebook <strong>$3000</strong></li>
+                <li><TiInputChecked /> Grabado de CD/DVD <strong>$600</strong></li>
+                <li><TiInputChecked /> Team Viewer <strong>$4000</strong></li>
+                <li><TiInputChecked /> Impresión color foto con papel PHOTO <strong>$400</strong></li>
+                <li><TiInputChecked /> Impresión NEGRO <strong>$50</strong></li>
+                <li><TiInputChecked /> Impresión COLOR <strong>$80</strong></li>
+                <li><TiInputChecked /> Instalación de software (Office, Corel, Photoshop, etc..) <strong>$3000</strong></li>
+                <li><TiInputChecked /> Actualización GPS <strong>$3000</strong></li>
+                <li><TiInputChecked /> Armado de cable red <strong>$400</strong></li>
+                <li><TiInputChecked /> Recarga de cartuchos NEGRO <strong>$700</strong></li>
+                <li><TiInputChecked /> Recarga de cartuchos COLOR <strong>$800</strong></li>
+
+            </ul>
+
             <a href='#formulario-support'>
                 <img className='img-arrow' src={arrow} alt='arrow'></img>
             </a>
 
             <h3 className='subtitle-soporte'>Escribinos en el formulario de contacto o utiliza el botón de Whatsapp para hablarnos directamente.</h3>
-  
+
 
             <div data-aos='fade' className='box-message' id='formulario-support'>
                 <h4 className='title-message'>¡Enviar un mensaje!</h4>
@@ -130,7 +157,7 @@ const Support = () => {
                     </button>
                 </form>
             </div>
-        
+
 
 
 
