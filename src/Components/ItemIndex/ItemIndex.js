@@ -1,15 +1,15 @@
 import React from 'react'
 import './ItemIndex.scss'
-import slider1 from '../images/slider_01.jpg';
 import slider2 from '../images/slider_04.jpg';
 import slider3 from '../images/slider_03.jpg';
+import slider5 from '../images/slider_05.jpg';
 import marca1  from '../images/1.png'
 import marca2  from '../images/2.png'
 import marca3  from '../images/3.png'
 import marca4  from '../images/4.png'
 import marca5  from '../images/5.png'
 import marca6  from '../images/6.png'
-import { TiArrowLeftOutline, TiArrowRightOutline } from "react-icons/ti";
+import { MdArrowForwardIos, MdArrowBackIosNew } from "react-icons/md";
 import { Link } from 'react-router-dom'
 
 const ItemIndex = () => {
@@ -24,11 +24,10 @@ const ItemIndex = () => {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="10000">
-                        <Link to={'/desarrolloWeb'}>
-                            <img src={slider1} className="d-block carousel-img" alt="desarrollo web" />
+                        <Link to={'/soporteTecnico'}>
+                            <img src={slider5} className="d-block carousel-img" alt="desarrollo web" />
                             <div className="carousel-caption d-none d-md-block">
-                                <h5 className='tit-slider'>DESARROLLO DE SITIOS WEB</h5>
-                                <p className='subtit-slider'>Ver más</p>
+                                <h5 className='tit-slider'>SOPORTE TÉCNICO</h5>
                             </div>
                         </Link>
                     </div>
@@ -37,29 +36,27 @@ const ItemIndex = () => {
                             <img src={slider2} className="d-block carousel-img" alt="ofertas" />
                             <div className="carousel-caption d-none d-md-block">
                                 <h5 className='tit-slider'>OFERTAS</h5>
-                                <p className='subtit-slider'>Ver</p>
                             </div>
                         </Link>
                     </div>
                     <div className="carousel-item">
-                        <Link to={'/cursos'}>
+                        <Link to={'/cursosPresenciales'}>
                             <img src={slider3} className="d-block carousel-img" alt="cursos" />
                             <div className="carousel-caption d-none d-md-block">
                                 <h5 className='tit-slider'>CURSOS</h5>
-                                <p className='subtit-slider'>Ver más</p>
                             </div>
                         </Link>
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
                     <span className='carousel-flecha' aria-hidden="true">
-                        <TiArrowLeftOutline />
+                        <MdArrowBackIosNew />
                     </span>
                     <span className="visually-hidden">Previous</span>
                 </button>
                 <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
                     <span className='carousel-flecha' aria-hidden="true">
-                        <TiArrowRightOutline />
+                        <MdArrowForwardIos />
                     </span>
                     <span className="visually-hidden">Next</span>
                 </button>

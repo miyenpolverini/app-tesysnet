@@ -1,9 +1,12 @@
 .carousel-img{
     height: 15em;
-    width: 45em;
-  
-    
+    max-width: 100%;
 }
+@media (min-width: 768px) { .carousel-img { width: 810px; } }
+@media (min-width: 992px) { .carousel-img { width: 1030px; } }
+@media (min-width: 1200px) { .carousel-img { width: 1230px; } }
+
+
 
 .carousel-flecha{
     opacity: 1; width: 50px; height: 65px;  background-color: rgba(51, 51, 51, 0.9); font-size: 36px; line-height: 46px; text-align: center; border-radius: 10px;  color: #dddddd; display: flex; align-items: center; justify-content: center;
