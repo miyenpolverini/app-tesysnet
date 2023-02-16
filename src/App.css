@@ -1,14 +1,14 @@
 .App {
   text-align: center;
- /*  margin: 0 auto;  */
-  margin: 1em;
+/*  margin: 0 auto;   */
+    margin: 1em;  
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.33); 
   max-width: 100%; 
 }
 
-@media (min-width: 768px) { .App { width: 810px; } }
+/* @media (min-width: 768px) { .App { width: 810px; } }
 @media (min-width: 992px) { .App { width: 1030px; } }
-@media (min-width: 1200px) { .App { width: 1230px; } }
+@media (min-width: 1200px) { .App { width: 1230px; } } */
 
 .App-logo {
   height: 40vmin;

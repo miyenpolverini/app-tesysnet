@@ -1,9 +1,7 @@
 import React, { useState } from 'react'
 import Loader from '../../Loader'
-import './Ofertas.scss'
 
-
-const Ofertas = () => {
+const ArmaTuPC = () => {
 
     const [loading, setLoading] = useState(true)
 
@@ -11,18 +9,14 @@ const Ofertas = () => {
         setLoading(false)
     }, 3000)
 
+
     return (
         <div>
             {loading ? <Loader /> :
-
-                <div>
-                    <p className='parrafo-ofertas'>Próximamente estaremos subiendo las mejores ofertas para vos.</p>
-
-                </div>
-
+                <p className='parrafo-ofertas'>PRÓXIMAMENTE</p>
             }
         </div>
     )
 }
 
-export default Ofertas  
+export default ArmaTuPC

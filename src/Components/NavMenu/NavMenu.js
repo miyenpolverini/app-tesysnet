@@ -100,9 +100,11 @@ const NavMenu = () => {
                                                             Hardware
                                                         </Link>
                                                     </li>
-                                                    <li><a className="dropdown-item" href="/#">Mouse</a></li>
-                                                    <li><a className="dropdown-item" href="/#">Teclado</a></li>
-                                                    <li><a className="dropdown-item" href="/#">Cartuchos</a></li>
+                                                    <li>
+                                                        <Link className="dropdown-item" to={'/armaTuPC'}>
+                                                            Armá tu PC!
+                                                        </Link>
+                                                    </li>
                                                 </ul>
                                             </li>
                                             <li className="nav-item">

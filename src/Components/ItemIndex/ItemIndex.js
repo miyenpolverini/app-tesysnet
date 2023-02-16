@@ -28,6 +28,7 @@ const ItemIndex = () => {
                             <img src={slider5} className="d-block carousel-img" alt="desarrollo web" />
                             <div className="carousel-caption d-none d-md-block">
                                 <h5 className='tit-slider'>SOPORTE TÉCNICO</h5>
+                                <p className='tit-slider'>para particulares y empresas</p>
                             </div>
                         </Link>
                     </div>
