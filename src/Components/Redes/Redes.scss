@@ -1,0 +1,164 @@
+.tienda{
+    margin-top: 2em;
+    color: #424242;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+
+.support-box_main { 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1em;
+}
+
+.support-box { 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1em;
+    
+}
+.support-box-aux { 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    margin-top: 1em;
+}
+
+
+.img-support{
+    width: 2em;
+}
+.img-support-aux{
+    width: 2.3em;
+}
+
+.support__title{
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.support__subtitle{
+    font-family: 'Overpass', sans-serif; 
+    text-align: left;
+    color: #424242;
+    font-size: 15px;
+}
+
+
+
+
+.title-prices{
+    margin: 2em 1em 1em 1em; 
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 1.1em;
+    letter-spacing: 0.3px;
+}
+
+
+
+ul{
+    list-style:none;
+    
+    li{
+        padding: 0.2em;
+    }
+      
+}
+
+.img-network{
+    margin-top: 1em;
+    width: 7em;
+
+}
+.img-arrow{
+    width: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    position: relative;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+.img-arrow:hover{
+    cursor: pointer;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 1; 
+        bottom: 50px;
+        }
+    50% {
+        opacity: 1;
+        bottom: 25px;
+        }
+    100% {
+      opacity: 0;
+      bottom: 10px;
+        }
+}
+
+.box-message{
+    background-color: #274373;
+    margin: 2em;
+    border: 1px solid #274373;
+    border-radius: 10px;
+    transition: all 0.6s ease;
+    display: inline-block;
+    align-items: center;
+    padding: 2em;
+    box-shadow: 0 12px 18px -6px rgba(0, 0, 0, 0.5);
+  
+}
+
+
+.box-message:hover{
+    cursor: pointer;
+    transform: scale(1.03, 1.03);
+}
+
+
+.title-message{
+    color: white;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    padding: 1em;
+}
+
+
+.btnSend{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    color: white;
+    width: 12em;
+    height: 3em;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:red;
+    border: rgba(30, 144, 255, .9);
+    margin-top: 20px;
+    transition: all 300ms ease-out;
+    
+}
+
+.btnSend:hover{
+    
+    width: 14em;
+   
+    .btn-arrow{
+      display:inline-block;
+      
+    }
+}

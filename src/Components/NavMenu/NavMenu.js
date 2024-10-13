@@ -4,7 +4,7 @@ import './Styles.scss'
 import logo from '../../../src/logo.png';
 import { Link } from 'react-router-dom';
 import { SiWhatsapp, SiInstagram } from "react-icons/si";
-import { FaFacebookF, FaMapMarkerAlt, FaClock, FaCode, FaPhoneAlt } from "react-icons/fa";
+import { FaFacebookF, FaMapMarkerAlt, FaClock, FaCode, FaPhoneAlt, FaNetworkWired } from "react-icons/fa";
 import { FcSupport } from "react-icons/fc";
 
 
@@ -50,7 +50,7 @@ const NavMenu = () => {
                                     </div>
                                     <div className="icon-box__text">
                                         <span className="icon-box__subtitle">Atención al público</span>
-                                        <h4 className="icon-box__title">Lunes a Viernes 9 a 13 HS y 16 a 20HS</h4>
+                                        <h4 className="icon-box__title">Lunes a Viernes 9 a 13 HS y 15.30 a 19.30HS</h4>
                                         <h4 className="icon-box__title">Sabados 9 a 13 HS</h4>
                                     </div>
                                 </div>
@@ -124,11 +124,18 @@ const NavMenu = () => {
                                                         </Link>
                                                     </li>
                                                     <li>
+                                                        <Link className="dropdown-item" to={'/redes'}>
+                                                            <span className='icon-submenu'><FaNetworkWired /></span>
+                                                            Instalación de redes
+                                                        </Link>
+                                                    </li>
+                                                    <li>
                                                         <Link className="dropdown-item" to={'/desarrolloWeb'}>
                                                             <span className='icon-submenu'><FaCode /></span>
                                                             Desarrollo de sitios web
                                                         </Link>
                                                     </li>
+
                                                 </ul>
                                             </li>
                                             <li className="nav-item dropdown">
@@ -192,7 +199,7 @@ const NavMenu = () => {
                                     </div>
                                     <div className="icon-box__text">
                                         <span className="icon-box__subtitle">Atención al público</span>
-                                        <h4 className="icon-box__title">Lunes a Viernes 9 a 13 HS y 16 a 20HS</h4>
+                                        <h4 className="icon-box__title">Lunes a Viernes 9 a 13 HS y 15.30 a 19.30HS</h4>
                                         <h4 className="icon-box__title">Sabados 9 a 13 HS</h4>
                                     </div>
                                 </div>

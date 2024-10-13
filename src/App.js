@@ -12,6 +12,7 @@ import Ofertas from './Components/Ofertas/Ofertas';
 import Desarrollo from './Components/DesarrolloWeb/Desarrollo';
 import Cursos from './Components/Cursos/Cursos';
 import ArmaTuPC from './Components/ArmaPC/ArmaTuPC';
+import Redes from './Components/Redes/Redes';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
               <Route path='/ofertas' element={<Ofertas />}></Route>
               <Route path='/soporteTecnico' element={<Support />}></Route>
               <Route path='/desarrolloWeb' element={<Desarrollo />}></Route>
+              <Route path='/redes' element={<Redes />}></Route>
               <Route path='/cursosPresenciales' element={<Cursos />}></Route>
               <Route path='/contacto' element={<Contact />}></Route>
             </Routes>

@@ -1,19 +1,29 @@
 import React from 'react';
-import { Pinwheel } from '@uiball/loaders'
+import { zoomies } from 'ldrs'
 
 
 
 const Loader = (props) => {
+
+    zoomies.register()
+
     return (
         <>
-            <Pinwheel
-                size={35}
-                lineWeight={3.5}
-                speed={1}
+            <l-zoomies
+                size="80"
+                stroke="5"
+                bg-opacity="0.1"
+                speed="1.4"
                 color="black"
-            />
+            ></l-zoomies>
         </>
     )
 }
 
 export default Loader;
+
+
+
+
+
+

@@ -23,7 +23,7 @@ const Contact = () => {
         setNotifContact(true);
 
         emailjs.sendForm('service_jlkmshj', 'template_35e308t', e.target,
-            'user_PV0m0dEni12RzE54FTAhJ')
+            '1QbC58aQJgh4CGBD9')
             .then((result) => {
                 console.log(result.text);
 
@@ -39,7 +39,7 @@ const Contact = () => {
         setNotifAdd(true);
 
         emailjs.sendForm('service_jlkmshj', 'template_2q8v6ve', e.target,
-            'user_PV0m0dEni12RzE54FTAhJ')
+            '1QbC58aQJgh4CGBD9')
             .then((result) => {
                 console.log(result.text);
 

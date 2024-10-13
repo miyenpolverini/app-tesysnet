@@ -23,11 +23,12 @@ const Cursos = () => {
                 <p className='cursos-detalle'>La gestión y control de las actividades de una empresa u organización sería hoy impensable sin el manejo de las herramientas ofimáticas que la tecnología ha puesto a nuestra disposición. Ud. ya conoce la importancia de la formación continua para mantenerse actualizado en este mundo interconectado.</p>
                 <p className='cursos-detalle'>Este curso está orientado al total manejo de las herramientas necesarias para operar una PC en una empresa u oficina, aplicando ejercitación y prácticas de simulación que harían un curso sumamente didáctico y llevadero.</p>
                 <p className='cursos-detalle'>Los contenidos son: Manejo de Windows. Uso elemental de los principales programas de office: Word, Internet, Excel, Acces, Power Point, Outlook, Mantenimiento y puesta a punto.</p>
+                <p className='cursos-detalle'>Duración: 12 meses (Se puede cursar una o dos veces a la semana).  </p>
 
                 <li className='cursos-tit'><TiInputChecked /> MASTER EN PC</li>
                 <p className='cursos-detalle'>Excel y Access, desarrollando programas y macros de aplicación. Durante este curso se aplican conocimientos avanzados de Windows.</p>
 
-                <li className='cursos-tit'><TiInputChecked /> INFORMÁTICA PARA JÓVENES MAYORES</li>
+                <li className='cursos-tit'><TiInputChecked /> INFORMÁTICA PARA JÓVENES Y MAYORES</li>
                 <p className='cursos-detalle'>Curso orientado a aquellos adultos que nunca hayan tenido contacto con las computadores y que ahora les interesa meterse en este maravilloso mundo. Aprender n Internet, a trabajar con textos y fotografías orientándolos a las necesidades de cada uno.</p>
 
                 <li className='cursos-tit'><TiInputChecked /> COMPUTACIÓN PARA NIÑOS</li>

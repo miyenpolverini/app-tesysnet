@@ -41,7 +41,7 @@ const Desarrollo = () => {
                     </Card.Body>
                     <div className='footer-plan'>
                         <Card.Footer>
-                            <small className="footer-price">$20.000</small>
+                            <small className="footer-price">Consulte precio</small>
                         </Card.Footer>
                     </div>
                 </Card>
@@ -66,7 +66,7 @@ const Desarrollo = () => {
                     </Card.Body>
                     <div className='footer-plan'>
                         <Card.Footer >
-                            <small className="footer-price">$32.000</small>
+                            <small className="footer-price">Consulte precio</small>
                         </Card.Footer>
                     </div>
                 </Card>
@@ -91,7 +91,7 @@ const Desarrollo = () => {
                     </Card.Body>
                     <div className='footer-plan'>
                         <Card.Footer>
-                            <small className="footer-price">$45.000</small>
+                            <small className="footer-price">Consulte precio</small>
                         </Card.Footer>
                     </div>
                 </Card>

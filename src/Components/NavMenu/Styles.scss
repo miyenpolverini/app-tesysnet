@@ -743,13 +743,13 @@ label { display: inline-block; max-width: 100%; margin-bottom: 5px; font-weight:
 
 .btn-block + .btn-block { margin-top: 5px; }
 
-
-
-.fade { opacity: 0; transition: opacity 0.15s linear; }
-.fade.in { opacity: 1; }
-
-
 /* miyo */
+
+/* .fade { opacity: 0; transition: opacity 0.15s linear; }
+.fade.in { opacity: 1; } */
+
+
+
 /* .collapse { display: none; visibility: hidden; } */
 .collapse.in { display: block; visibility: visible; }
 
@@ -3112,7 +3112,7 @@ img {max-width:100%; height:auto}
 	width:90%;
 	width:-webkit-calc(100% - 30px);
 	width:-moz-calc(100% - 30px);
-	width:calc(100%-30px);
+	width:calc(100% - 30px);
 	margin-left:15px
 }
 .project-post:hover .project-content {background: #333; z-index:3}

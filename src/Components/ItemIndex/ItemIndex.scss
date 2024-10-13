@@ -1,12 +1,19 @@
-.carousel-img{
-    height: 45em;
-  /*   max-width: 100%; */
-}
-/* @media (min-width: 768px) { .carousel-img { width: 810px; } }
+/* .carousel-img{
+ height: 45em; 
+   max-width: 100%; 
+}    */
+
+/*  @media (min-width: 768px) { .carousel-img { width: 20em; } }
 @media (min-width: 992px) { .carousel-img { width: 1030px; } }
-@media (min-width: 1200px) { .carousel-img { width: 1830px; } } */
+@media (min-width: 1200px) { .carousel-img { width: 1830px; } }  */
 
+@media screen and (max-width: 465px) {.carousel-img{height: 15em;}} 
+@media (min-width: 466px) and (max-width: 768px) {.carousel-img{height: 20em;}}
+@media (min-width: 769px) and (max-width: 1200px) {.carousel-img{height: 25em;}}
+@media (min-width: 1201px) {.carousel-img{height: 45em;}}
 
+/* @media screen and (max-width: 1200px) {.carousel-img{height: 25em;}}
+@media screen and (max-width: 1500px) {.carousel-img{height: 30em;}} */
 
 .carousel-flecha{
     opacity: 1; width: 50px; height: 65px;  background-color: rgba(51, 51, 51, 0.9); font-size: 36px; line-height: 46px; text-align: center; border-radius: 10px;  color: #dddddd; display: flex; align-items: center; justify-content: center;

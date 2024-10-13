@@ -84,7 +84,7 @@ const Support = () => {
                 </div>
             </div>
 
-            <h2 className='title-prices'>Costos de servicio técnico</h2>
+           {/*  <h2 className='title-prices'>Costos de servicio técnico</h2>
 
             <ul className='support-prices'>
                 <li><TiInputChecked /> Costo por hora de servicio técnico a domicilio <strong>$5000</strong></li>
@@ -108,7 +108,7 @@ const Support = () => {
                 <li><TiInputChecked /> Recarga de cartuchos NEGRO <strong>$700</strong></li>
                 <li><TiInputChecked /> Recarga de cartuchos COLOR <strong>$800</strong></li>
 
-            </ul>
+            </ul> */}
 
             <a href='#formulario-support'>
                 <img className='img-arrow' src={arrow} alt='arrow'></img>

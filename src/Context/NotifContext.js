@@ -5,9 +5,13 @@ const Context = React.createContext()
 
 export const AddNotifContextProvider = ({ children }) => {
 
-
+    
     const [notifAdd, setNotifAdd] = useState(false)
     const [notifContact, setNotifContact] = useState(false)
+
+    /* ANUNCIO */
+    const [show, setShow] = useState(true)
+    const handleClose = () => setShow(false)
 
     /* FUNCIONES */
 
@@ -43,7 +47,7 @@ export const AddNotifContextProvider = ({ children }) => {
 
 
     return (
-        <Context.Provider value={{ SetNotification, setNotifAdd, notifAdd, notifContact, setNotifContact }}>
+        <Context.Provider value={{ SetNotification, setNotifAdd, notifAdd, notifContact, setNotifContact, show, setShow, handleClose  }}>
             {children}
         </Context.Provider>
     )

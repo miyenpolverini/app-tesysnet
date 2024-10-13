@@ -96,7 +96,7 @@ text-decoration: none;
 
 @media (min-width: 992px) { 
     .navbar-nav > li > a { 
-        color: #999999; 
+        color: rgb(96, 88, 88); 
         font-weight: bolder;
         padding: 27px 22px; 
         margin-right: -4px; } }
@@ -117,11 +117,14 @@ text-decoration: none;
 
 .navbar-nav > li:hover > a {
      text-decoration: none; 
-     color: #ffffff; }
+     color: rgb(40, 39, 39);
+     font-weight: bold;
+      }
 
 @media (min-width: 992px) { 
     .navbar-nav > li:hover > a { 
         border-bottom: 3px solid rgba(39, 67, 115, .6); 
+    
         padding-bottom: 24px; 
         color: #333333; } }
 
